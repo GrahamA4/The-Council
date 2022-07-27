@@ -1,38 +1,97 @@
+
 .App {
-  text-align: center;
+  margin: auto;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.title{
+  margin-top: 2vmax;
+  margin-left: 10vmax;
+  width: 15vw;
+  height: 15vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 14vmax;
+
+  
+  
+  list-style: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.category{
+  font-size: 15px;  
+  display: flex;
+  gap: 5vmax;
+  margin-top: 7vmax;
+  margin-left: 18vmax;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.category > li > :only-child{
+  color: black;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.home-container{
+  margin-top: 10vh;
+  display: flex;
+}
+
+.storeNumb{
+  font-weight:500;
+  font-size: large;
+  margin-left: 1vw;
+}
+
+
+.status{
+  margin-bottom: -10vh;
+  font-size:xx-large;
+  font-weight: 200;
+  color: black;
+  margin-left: 10vmax;
+  height: 10vh;
+  width: 15vw;
+}
+
+
+
+
+.home-container > img{
+  height: 60vh;
+  margin: auto;
+  margin-top: -5vmax;
+  
+}
+
+#scheduleBox{
+  font-size: medium;
+  border: solid black 1px;
+  height: 3vh;
+  width: 0.6vw;
+  margin-left: 13.5vw;
+  margin-top: -14vh;
+}
+
+.schedule{
+  margin-top: -10vh;
+  margin-left: 3vw;
+  font-weight: 200;
+  font-size: medium;
+  list-style:none;
+  border-radius: 10%;
+  width: 10vw;
+}
+
+.schedule > p > li{
+  font-size: x-large;
+  border: 1px solid gray;
+
 }
